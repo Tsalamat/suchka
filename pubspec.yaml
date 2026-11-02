@@ -1,0 +1,16 @@
+name: lane_detector
+description: Реальное обнаружение дорожной разметки на телефоне (Flutter + Rust).
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.11.0
+  ffi: ^2.1.0
+
+flutter:
+  uses-material-design: true
